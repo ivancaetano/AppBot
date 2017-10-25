@@ -1,0 +1,35 @@
+<div  class=" bot">
+  <div class=" card-header">
+      Assistente CAIXA
+      <img class="logoCaixa" src="IMG/logoCAIXA.png" />
+  </div>
+  <div #chat id="chatBody" class="card-block">
+      <div *ngFor="let data of mensagens" class="mensagem ">
+          <div *ngIf="data.user==false">
+              <img class="img-bot" src="IMG/logoCAIXA.png">
+              <div class="card msgBot">
+                  <div>
+                      {{data.texto}}
+                    
+                  
+                  </div>
+              </div>
+          </div>
+          <div *ngIf="data.user==true">
+              <div class="card msgUser">
+                  <div>
+                      {{data.texto}}
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+  <div class="card-footer text-muted">
+      <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">...</span>
+          <input type="text" (keyup.enter)="msgUsuario()" [(ngModel)]='txMensagem' class="form-control" placeholder="Digite aqui sua mensagem" aria-describedby="basic-addon1">
+      </div>
+  </div>
+</div>
+
