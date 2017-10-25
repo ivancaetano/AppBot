@@ -23,6 +23,7 @@
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.2",
+    "watson-developer-cloud": "^2.41.1",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
