@@ -6,7 +6,6 @@
   <div #chat id="chatBody" class="card-block">
       <div *ngFor="let data of mensagens" class="mensagem ">
           <div *ngIf="data.user==false">
-              <img class="img-bot" src="IMG/logoCAIXA.png">
               <div class="card msgBot">
                   <div>
                       {{data.texto}}

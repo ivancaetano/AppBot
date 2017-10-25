@@ -1,8 +1,4 @@
-html, 
-body {
-    height: 100%;
-    width: 100%;
-}
+
 
 .card-header {
     text-align: left;
@@ -14,7 +10,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67a8ce', endColorstr='#3c8dbc', GradientType=0) !important;
     color: white;
     font-weight: bold;
-    height: 9%;
+    height: 5%;
 }
 
 .menuItens {
@@ -47,7 +43,7 @@ body {
 .card-footer {
     text-align: left;
     background-color: #f4f4f6;
-    height: 13%;
+    height: 6%;
 }
 
 ::-webkit-scrollbar {
@@ -71,6 +67,7 @@ body {
 
 .card {
     height: 100%;
+    font-size: 20px;
 }
 
 .chat {
@@ -79,7 +76,7 @@ body {
 
 
 .card-block {
-    height: 78%;
+    height: 89%;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -101,7 +98,6 @@ body {
     max-width: 80%;
     display: inline-block;
     padding: 5px 5px 5px 5px;
-    font-size: 13px;
     background-color: #f4f4f6;
     float: left;
 }
@@ -118,7 +114,6 @@ agm-map {
     float: right;
     max-width: 80%;
     padding: 5px 5px 5px 5px;
-    font-size: 13px;
     background-color: #296fa7;
     color: white;
 }
